@@ -1,6 +1,6 @@
 {
   "name": "schemastore",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "offline schemastore",
   "main": "dist/bin.js",
   "bin": "dist/index.js",
@@ -8,6 +8,10 @@
     "fetch": "node --experimental-fetch ./dist/fetch",
     "dev": "tsc -w"
   },
+  "files": [
+    "dist",
+    "schemas"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gaubee/npm-schemastore.git"
