@@ -1,3 +1,4 @@
+#!/usr/bin/node
 "use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -126,7 +127,4 @@ const doSearch = async (search_words) => {
     }
 };
 exports.doSearch = doSearch;
-if (require.main === module) {
-    (0, exports.doBin)();
-}
 //# sourceMappingURL=index.js.map

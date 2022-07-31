@@ -1,8 +1,8 @@
 {
   "name": "schemastore",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "offline schemastore",
-  "main": "dist/index.js",
+  "main": "dist/bin.js",
   "bin": "dist/index.js",
   "scripts": {
     "fetch": "node --experimental-fetch ./dist/fetch",

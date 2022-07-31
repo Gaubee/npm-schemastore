@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 import fs from "node:fs";
 import path from "node:path";
 import api from "./catalog.json";
@@ -137,7 +139,3 @@ export const doSearch = async (search_words: string[]) => {
     );
   }
 };
-
-if (require.main === module) {
-  doBin();
-}
