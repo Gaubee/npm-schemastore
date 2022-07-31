@@ -1,0 +1,20 @@
+{
+  "json.schemas": [
+    {
+      "name": "ioBroker Package manifest",
+      "description": "Schema for ioBroker adapters io-package file",
+      "fileMatch": [
+        "io-package.json"
+      ],
+      "url": "schemas/json/io-package.json"
+    },
+    {
+      "name": "package.json",
+      "description": "NPM configuration file",
+      "fileMatch": [
+        "package.json"
+      ],
+      "url": "schemas/json/package.json"
+    }
+  ]
+}
